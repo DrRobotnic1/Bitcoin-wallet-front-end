@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*////////////// /////// */
+/* MY REUSABLES */
+/* //////////////////// */
+
+.primary-heading {
+  font-size: 7.2rem;
+  line-height: 1.05;
+}
+
+.header-secondary {
+  font-size: 4.2rem;
+  line-height: 1.05;
+  font-weight: 600;
+}
+
+.header-tertiary {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.hover-usable:active,
+.hover-usable:hover {
+  transition: all 0.5s;
+  background-color: #1a10d7;
+  color: #eeeeee;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-column--2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.reusable-btn {
+  background-color: #201e43;
+  display: inline-block;
+  padding: 1.3rem 9.8rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+  color: #eeeeee;
+}
